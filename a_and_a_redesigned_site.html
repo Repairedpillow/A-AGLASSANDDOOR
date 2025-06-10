@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A&A Glass and Door</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f7f9fc;
+      color: #333;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .hero {
+      background-color: #e6f0ff;
+      text-align: center;
+      padding: 3rem 2rem;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 0.3rem;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .card {
+      background: white;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin: 1rem;
+      flex: 1 1 250px;
+      text-align: center;
+    }
+    footer {
+      background-color: #f1f3f5;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>A&A Glass and Door</h1>
+    <p>Clear Views. Secure Entrances. Guaranteed.</p>
+  </header>
+
+  <section class="hero">
+    <h2>Auto, Residential & Commercial Glass and Door Replacement</h2>
+    <p>Fast. Reliable. Trusted.</p>
+    <a href="tel:6032353976" class="button">Call Now</a>
+  </section>
+
+  <section class="section">
+    <h2 style="text-align:center;">Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Auto Glass</h3>
+        <p>Windshield, side, and rear glass replacement for all vehicles.</p>
+      </div>
+      <div class="card">
+        <h3>Residential</h3>
+        <p>High-quality window and door replacements for your home.</p>
+      </div>
+      <div class="card">
+        <h3>Commercial</h3>
+        <p>Storefront glass, commercial doors, and secure entry systems.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background-color:#eef3f8;">
+    <h2>About Matty</h2>
+    <p>Matty brings years of hands-on experience and prides himself on honest work and customer-first service.</p>
+    <p><strong>Business Hours:</strong> 7:00 AM – 3:30 PM</p>
+  </section>
+
+  <section class="section" style="text-align:center;">
+    <h2>Contact Us</h2>
+    <p>Have a question or need an estimate?</p>
+    <a href="tel:6032353976" class="button">Call or Text: 603-235-3976</a>
+  </section>
+
+  <footer>
+    &copy; <span id="year"></span> A&A Glass and Door. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
